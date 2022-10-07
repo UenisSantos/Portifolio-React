@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { Menu } from '../menu/index';
+import { Layout } from '../layout/index';
 
 function App() {
 	return (
@@ -8,7 +8,7 @@ function App() {
 
 
 		<Routes  >
-			<Route path='/' element={<Menu />} />
+			<Route path='/' element={<Layout />} />
 
 		</Routes>
 
