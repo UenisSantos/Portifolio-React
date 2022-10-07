@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import P from 'prop-types'
-import { Links } from './NavLinks';
+import { Links } from './links/NavLinks';
 
 import { GrSolaris } from 'react-icons/gr'
 import { MdDarkMode } from 'react-icons/md'
-import { Buttom } from '../../Buttom/button';
+import { Buttom } from '../Buttom/button';
 
 
 export const MenuLinks = ({ information = [],

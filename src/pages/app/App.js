@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { Menu } from '../menu/index';
 
 function App() {
 	return (
@@ -6,9 +7,8 @@ function App() {
 
 
 
-		<Routes>
-
-
+		<Routes  >
+			<Route path='/' element={<Menu />} />
 
 		</Routes>
 
