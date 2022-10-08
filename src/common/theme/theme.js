@@ -8,10 +8,10 @@ export const theme = {
 	},
 	sizes: {
 		smaller: '1.6rem',
-		small: '3.5rem',
+		small: '3rem',
 		medium: '5.5rem',
-		big: '8rem',
-		huge: '10.5rem'
+		big: '7rem',
+		huge: '9.5rem'
 
 	},
 
