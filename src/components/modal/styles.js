@@ -18,16 +18,17 @@ const Sizes = {
 
 
 	big: () => css`
-	height:70% ;
-width:85%;
+	height:60% ;
+width:95%;
 	`,
+
 }
 
 
 
 export const ModalContainer = styled.div`
 ${({ theme, size }) => css`
-border:1px solid ${theme.colors.ligth};
+border:3px solid ${theme.colors.ligth};
 box-shadow: 5px  5px  20px  ${theme.colors.secundaryColor}   ;
 ${Sizes[size]};
 
