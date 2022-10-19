@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from 'styled-components';
-import { theme } from './common/theme/styles';
 import { GlobalStyles } from './common/theme/globalStyles';
 import { BrowserRouter } from 'react-router-dom';
 import App from './pages/app/App';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './common/theme/theme';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 

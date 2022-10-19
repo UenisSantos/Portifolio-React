@@ -38,6 +38,19 @@ color:#D84924
 }
 
 
+
+
+.bootstrap{
+
+color:#6935b1
+
+}
+
+
+
+
+
+
 .storybook{
 	color:#F2437E
 }
@@ -51,8 +64,9 @@ color:#D84924
 
 .styled svg {
 
-	background-color:#D06D87;
+	background-color:#d37286;
 	color:#F1C647
+
 }
 
 
