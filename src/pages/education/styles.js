@@ -121,7 +121,7 @@ color:${theme.colors.primaryColor} ;
 
 a{
 	width:150% ;
-	margin-left :15vw;
+	margin-left :18vw;
 }
 
 
@@ -145,7 +145,6 @@ ${theme.breakpoints.lg}{
 	.modal{
 		height:75% ;
 	}
-
 }
 
 
@@ -153,13 +152,7 @@ ${theme.breakpoints.xl}{
 display: grid;
 
 	grid-template-columns:1fr 1fr 1fr;
-
-
-
 }
-
-
-
 
 
 
@@ -214,14 +207,10 @@ width:100% ;
 
 
 
-@media screen  and (min-width:1699px){
-
-}
 
 
 
 
-@media screen  and (min-width:1024px) and (max-width:1698px){}
 
 
 
