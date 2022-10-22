@@ -32,11 +32,9 @@ ${theme.breakpoints.max}{
 
 
 
-.button{
+/* .button{
 
 margin:3%auto;
-border:2px solid ${theme.colors.ligth} ;
-text-align:center ;
 font-size:${theme.sizes.smaller} ;
 padding:${theme.spacings.small} ;
 position:relative ;
@@ -66,7 +64,7 @@ transition: .7s ease ;
 	width:100% ;
 }
 }
-}
+} */
 ${theme.breakpoints.lg}{
 
 h1{
