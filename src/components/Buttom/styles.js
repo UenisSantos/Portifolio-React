@@ -9,8 +9,8 @@ const StylButton =
 	pattern: ({ theme }) => css`
 
 
-width: 150px;
-height:50px ;
+width: 15rem;
+height:5rem ;
 background:${theme.colors.primaryColor} ;
 position:absolute ;
 transform:translate(-50%,-50% );
@@ -23,7 +23,7 @@ font-size:${theme.sizes.smaller} ;
 padding:${theme.spacings.small} ;
 border-radius:5% ;
 box-shadow: 5px  5px  20px  ${theme.colors.secundaryColor}   ;
-
+font-weight:bold ;
 
 
 &::before,
