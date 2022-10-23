@@ -6,11 +6,11 @@ const Sizes = {
 
 
 	small: () => css`
-	height:15rem ;
-	width:45%;
+	height:20% ;
+	width:80%;
 	`,
 	medium: () => css`
-	height:20rem ;
+	height:21rem ;
 	width:80%;
 	`,
 
