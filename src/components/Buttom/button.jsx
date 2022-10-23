@@ -3,11 +3,15 @@ import P from 'prop-types'
 import *  as Styled from './styles'
 
 
-export const Buttom = ({ children, click, menu = false, className }) => {
+export const Buttom = ({ children, click, pattern , className }) => {
 	return (
 
-		<Styled.ButtomContainer menu={menu} className={className} onClick={click}  >
-			{children}
+		<Styled.ButtomContainer pattern={pattern} className={className} onClick={click}  >
+
+				{children}
+
+
+
 		</Styled.ButtomContainer>
 	)
 };
@@ -17,6 +21,6 @@ Buttom.propTypes = {
 
 	children: P.node.isRequired,
 	click: P.func,
-	menu: P.bool,
+	pattern:P.string.isRequired,
 	className: P.string
 }
