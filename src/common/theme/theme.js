@@ -31,6 +31,8 @@ export const theme = {
 		lg: `@media (min-width:768px )`,
 		xl: `@media (min-width:1024px )`,
 		max: `@media (min-width:1280px )`,
+		xmax: `@media (min-width:1680px )`,
+
 	},
 
 }
