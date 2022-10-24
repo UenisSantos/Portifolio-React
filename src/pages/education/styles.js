@@ -195,7 +195,7 @@ ${theme.breakpoints.xmax}{
 
 button{
 	left:20% ;
-	top:4rem ;
+	top:3rem ;
 }
 .modal{
 

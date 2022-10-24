@@ -10,14 +10,14 @@ const StylButton =
 
 
 width: 15rem;
-height:5rem ;
+height:4rem ;
 background:${theme.colors.primaryColor} ;
 position:absolute ;
 transform:translate(-50%,-50% );
  text-align:center ;
  font-size:${theme.sizes.smaller} ;
 padding:${theme.spacings.small} ;
-border:3px solid ${theme.colors.ligth} ;
+border:1px solid ${theme.colors.secundaryColor} ;
 overflow:hidden ;
 font-size:${theme.sizes.smaller} ;
 padding:${theme.spacings.small} ;
@@ -33,8 +33,8 @@ content: '';
 position: absolute ;
 width:170% ;
 height:500% ;
-top:-30px ;
-left:50% ;
+top:-40px ;
+left:20% ;
 
 }
 
@@ -58,11 +58,17 @@ left:50% ;
 	{
 		transform: translate(-50%,-75%)rotate(0deg);
 	}
+	50%
+	{
+		transform: translate(-10%,-15%)rotate(180deg);
+	}
+
 	100%
 	{
 		transform: translate(-50%,-75%)rotate(360deg);
 	}
 }
+
 
 
 

@@ -16,6 +16,48 @@ p{
 img{
 	width:50%;
 }
+
+
+
+
+ svg{
+	position:relative ;
+    	color:${theme.colors.ligth};
+    height:${theme.sizes.smaller} ; ;
+    width:${theme.sizes.smaller} ;
+    animation-name:mymove ;
+    animation-duration:0.5s ;
+animation-iteration-count:infinite ;
+
+    }
+
+    @keyframes mymove {
+  from {top: 0px;}
+  to {bottom: 10px;
+color:${theme.colors.primaryColor} ;
+}
+}
+
+a{
+	width:100% ;
+
+}
+
+
+a  p{
+background-color:${theme.colors.secundaryColor} ;
+	color:${theme.colors.primaryColor};
+	margin:${theme.sizes.big} auto;
+
+padding:${theme.sizes.smaller};
+}
+
+
+
+
+
+
+
 ${theme.breakpoints.xl}{
 
 	img{
@@ -32,39 +74,7 @@ ${theme.breakpoints.max}{
 
 
 
-/* .button{
 
-margin:3%auto;
-font-size:${theme.sizes.smaller} ;
-padding:${theme.spacings.small} ;
-position:relative ;
-z-index:1 ;
-box-shadow:3px 3px 8px  ${theme.colors.primaryColor};
-width:15rem ;
-border-radius:5% ;
-
-::before{
-	content:'' ;
-	position:absolute ;
-top:0 ;
-left:0 ;
-
-width:0%;
-height:100% ;
-z-index:-1 ;
-background-color:${theme.colors.primaryColor}  ;
-
-transition: .7s ease ;
-
-}
-
-:hover{
-::before{
-	font-weight:bold ;
-	width:100% ;
-}
-}
-} */
 ${theme.breakpoints.lg}{
 
 h1{
@@ -83,9 +93,23 @@ ${({ theme }) => css`
 display:grid;
 grid-template-columns: 1fr  ;
 
+
+
+
+
 .modal{
 	margin:auto ;
+
 }
+
+button{
+		position:relative ;
+		left:45% ;
+		bottom:-3rem ;
+
+
+	}
+
 
 img{
 
