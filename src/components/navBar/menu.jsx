@@ -1,17 +1,11 @@
-import React, { useState } from 'react'
 import P from 'prop-types'
 import { Links } from './links/NavLinks';
 
-import { GrSolaris } from 'react-icons/gr'
-import { MdDarkMode } from 'react-icons/md'
-import { Buttom } from '../Buttom/button';
 
 
 export const MenuLinks = ({ information = [],
 }) => {
-	const [theme, setTheme] = useState(false)
 
-	const handleClickTheme = () => setTheme(!theme)
 
 	return (
 
@@ -27,9 +21,7 @@ export const MenuLinks = ({ information = [],
 				))}
 
 
-			<Buttom className={'themeButton'} menu={true} click={() => handleClickTheme()} >
-				{!theme ? <MdDarkMode /> : <GrSolaris />}
-			</Buttom>
+
 
 
 		</ul>

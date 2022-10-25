@@ -12,6 +12,7 @@ border-radius: 0 0 0 ${theme.sizes.big} ;
 	position: fixed ;
 left:${stateMenu ? '0' : '100%'} ;
 z-index:98 ;
+top:0 ;
 display: flex;
 justify-content:center ;
 
@@ -20,17 +21,27 @@ justify-content:center ;
  */
 img{
 	position:absolute ;
-	width:${theme.sizes.huge};
-	left:${theme.spacings.smaller} ;
+	height:${theme.sizes.huge};
 }
 
+
+
+
 .menuButton{
-svg{
+	height:0;
+
+svg,img{
 	position: fixed ;
 	font-size:${theme.sizes.medium};
 	right:${theme.sizes.smaller}  ;
 	top: ${theme.spacings.smaller} ;
+
+
 }
+
+
+
+
 
 };
 
