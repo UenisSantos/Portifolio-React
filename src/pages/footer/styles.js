@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const FooterContainer = styled.footer`
 ${({ theme }) => css`
-height:${theme.sizes.medium} ;
+height:${theme.sizes.small} ;
 width:100% ;
 
 background-color:${theme.colors.secundaryColor} ;
@@ -24,7 +24,7 @@ justify-content:space-evenly ;
 
 svg{
 width:90% ;
-height:${theme.sizes.medium} ;
+height:${theme.sizes.small} ;
 margin:${theme.sizes.smaller} ;
 
 }

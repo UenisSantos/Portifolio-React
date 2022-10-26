@@ -15,6 +15,7 @@ p{
 
 img{
 	width:50%;
+	filter: brightness(90%) contrast(150%) grayscale(30%) saturate(200%) ;
 }
 
 
