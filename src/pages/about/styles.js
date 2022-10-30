@@ -22,8 +22,11 @@ ${theme.breakpoints.max}{
 export const TextsContainer = styled.article`
 ${({ theme }) => css`
 justify-content:space-around ;
+
 margin:auto ;
 width:90% ;
+
+
 h1{
 	margin:${theme.spacings.big} 0;
 	color:${theme.colors.primaryColor}
@@ -33,20 +36,13 @@ h1{
 p{
 	color:${theme.colors.secundaryColor};
 	margin:${theme.spacings.medium} ${theme.spacings.big};
-
 };
 
 
-
-
 ${theme.breakpoints.lg}{
-
 	width:70% ;
 
-
-h1{
-font-size	:${theme.sizes.medium} ;
-}
+h1{font-size:${theme.sizes.medium} ;}
 
 p{
 	padding: ${theme.spacings.big};
@@ -54,10 +50,27 @@ p{
 }
 
 }
-
 ${theme.breakpoints.max}{
+width:100% ;
+margin-top:-10rem ;
+p{
+	padding: ${theme.spacings.small};
+}
+}
+
+
+
+${theme.breakpoints.xmax}{
 padding:1% ;
 height:50vh ;
+margin-top:10rem ;
+h1{
+	margin:${theme.spacings.small} 0;
+	font-size	:${theme.sizes.big} ;
+
+}
+}
+
 
 }
 `}
@@ -70,29 +83,34 @@ height:50vh ;
 
 export const ImagesContainer = styled.article`
 ${({ theme }) => css`
+border:5px solid ${theme.colors.primaryColor} ;
+box-shadow: 10px  10px  30px 20px ${theme.colors.secundaryColor}   ;
 
 img{
 margin: ${theme.spacings.big} auto ;
-
 width:60%;
 }
 
 
 ${theme.breakpoints.lg}{
 display:inline-block ;
+border:10px solid ${theme.colors.primaryColor} ;
+
 }
 
 
 
 ${theme.breakpoints.max}{
-
-border:2px solid ${theme.colors.primaryColor} ;
-border-bottom:none ;
-padding:1%;
+background-color:${theme.colors.primaryColor}  ;
+padding:1% ;
+border:none ;
 margin-top:${theme.sizes.big} ;
 height:50vh ;
 
-
+ul{
+	background-color:white ;
+	width:100% ;
+}
 li{
 margin-top: ${theme.sizes.big} ;
 

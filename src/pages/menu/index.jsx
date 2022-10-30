@@ -6,11 +6,10 @@ import { linksMenu } from '../../common/data/mock'
 import rubrica from '../../assets/rubrica.png'
 
 import { AiFillCloseCircle } from 'react-icons/ai'
-import { BiMenuAltRight } from 'react-icons/bi'
 import { Image } from '../../components/Image/index';
 import { Buttom } from '../../components/Buttom/button';
 import { MenuLinks } from '../../components/navBar/menu';
-
+import uenis from '../../assets/uenis.svg'
 export const Menu = () => {
 
 	const [stateMenu, setStateMenu] = useState(false)
@@ -26,7 +25,7 @@ export const Menu = () => {
 
 
 
-					{stateMenu ? <AiFillCloseCircle /> : <BiMenuAltRight />
+					{stateMenu ? <AiFillCloseCircle /> : <Image src={uenis}/>
 					}				</Buttom>
 
 

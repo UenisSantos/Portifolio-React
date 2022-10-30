@@ -6,6 +6,8 @@ import { Text } from '../../components/Text/index';
 import { Modal } from '../../components/modal/index';
 import { projecMock } from '../../common/data/projects';
 import { Buttom } from '../../components/Buttom/button';
+import { Links } from '../../components/navBar/links/NavLinks';
+import { BsChevronDoubleDown } from 'react-icons/bs';
 
 
 export const Projects = () => {
@@ -14,7 +16,7 @@ export const Projects = () => {
 
 			<Image src={projects} alt={'projetos'} />
 			<Text as='h1' size='small'> Projetos  </Text>
-			<Text>  Principais projetos construidos</Text>
+			<Text size='smaller' >  Principais projetos construidos</Text>
 
 
 
@@ -32,7 +34,7 @@ export const Projects = () => {
 
 								<Image src={iten.src} alt={projects} />
 							</Modal>
-							<Buttom className={'button'}   >ver projeto</Buttom>
+							<Buttom pattern='pattern'   >ver projeto</Buttom>
 						</Styled.ModalContainer>
 
 
@@ -41,7 +43,12 @@ export const Projects = () => {
 
 
 			</Styled.Container>
-			<Buttom className={'button '}  > Mais projetos</Buttom>
+
+			<Links href={'te'}>
+					<Text size='smaller'>
+						ver mais certificados <BsChevronDoubleDown />
+					</Text>
+				</Links>
 		</Styled.ProjectsContainer>
 
 

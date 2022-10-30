@@ -13,7 +13,6 @@ import { Buttom } from '../../components/Buttom/button';
 
 export const Education = () => {
 
-	/* 	const [stateModal, setStateModal] = useState('none')*/
 
 
 	const [visibleModal, setVisibleModal] = useState(false)
@@ -46,7 +45,7 @@ export const Education = () => {
 
 
 				{certificates.map((iten, i) => (
-					<Modal key={i} size={'medium'}  >
+					<Modal key={i} size={'small'}  >
 
 						<Text as='h3' size='smaller'>
 							{iten.title}
@@ -57,7 +56,7 @@ export const Education = () => {
 
 						</Text>
 
-						<Buttom className='context' click={() => openBigModal(iten.src)} >{iten.document}
+						<Buttom pattern='pattern' click={() => openBigModal(iten.src)} >{iten.document}
 
 						</Buttom>
 
@@ -78,11 +77,10 @@ export const Education = () => {
 
 
 
-
 			<Styled.ModalBig visibleModal={visibleModal}  >
+<div className='transparentMoldal'>
 
-
-				<Modal size={'big'}>
+			<Modal size={'big'}>
 					<Buttom click={openBigModal}  >
 						<RiCloseLine />
 					</Buttom>
@@ -91,6 +89,9 @@ export const Education = () => {
 					<Image src={stateClass} alt={stateClass} />
 
 				</Modal>
+
+			</div>
+
 
 			</Styled.ModalBig>
 		</>
