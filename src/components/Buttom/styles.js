@@ -24,7 +24,11 @@ padding:${theme.spacings.small} ;
 border-radius:5% ;
 box-shadow: 5px  5px  20px  ${theme.colors.secundaryColor}   ;
 font-weight:bold ;
+a{
+	font-size:${theme.sizes.smaller} ;
+	color:${theme.colors.secundaryColor} ;
 
+}
 
 &::before,
 &::after{

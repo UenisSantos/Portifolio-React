@@ -34,7 +34,7 @@ export const Projects = () => {
 
 								<Image src={iten.src} alt={projects} />
 							</Modal>
-							<Buttom pattern='pattern'   >ver projeto</Buttom>
+							<Buttom pattern='pattern'   ><a href={iten.click}>ver projeto</a></Buttom>
 						</Styled.ModalContainer>
 
 

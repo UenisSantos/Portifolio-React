@@ -2,7 +2,7 @@
 
 import *  as Styled from './styles'
 import React, { useState } from 'react';
-import { linksMenu } from '../../common/data/mock'
+import { linksMenu } from '../../common/data/menu'
 import rubrica from '../../assets/rubrica.png'
 
 import { AiFillCloseCircle } from 'react-icons/ai'

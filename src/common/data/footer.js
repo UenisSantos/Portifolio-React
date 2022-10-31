@@ -9,8 +9,8 @@ export const footer = [
 	{
 
 		children: <AiFillGithub />,
-		href: 'educacao',
-		newTab: false,
+		href: 'https://github.com/UenisSantos/UenisSantos/blob/main/README.md',
+		newTab: true,
 		classe: 'git'
 
 	},
@@ -18,8 +18,8 @@ export const footer = [
 	{
 
 		children: <AiFillLinkedin />,
-		href: 'educacao',
-		newTab: false,
+		href: 'https://www.linkedin.com/in/uenis-santos-desenvolvedor-front-end/',
+		newTab: true,
 		classe: 'linkedin'
 
 	},
@@ -27,16 +27,16 @@ export const footer = [
 	{
 
 		children: <SiGmail />,
-		href: 'educacao',
-		newTab: false,
+		href: 'mailto:uenisprogramador@gmail.com',
+		newTab: true,
 		classe: 'email'
 
 	},
 	{
 
 		children: <FaWhatsappSquare />,
-		href: 'educacao',
-		newTab: false,
+		href: 'https://api.whatsapp.com/send?phone=5521994305914&text=oi%20uenis%20todo%20bom%20%3F',
+		newTab: true,
 		classe: 'whatsapp'
 
 	},

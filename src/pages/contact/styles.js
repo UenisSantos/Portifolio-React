@@ -14,7 +14,6 @@ background-repeat: no-repeat ;
 background-size:60% 100% ;
 background-attachment: fixed;
 background-position:right ;
-border: 2px solid red ;
 h1{
 
 margin: ${theme.spacings.big} ${theme.spacings.medium} ${theme.spacings.small} ${theme.spacings.medium};
@@ -67,7 +66,6 @@ p{
 
 export const Wrapper = styled.div`
 ${({ theme }) => css`
-border: solid yellow;
 width:100vw ;
 height:50% ;
 display:flex ;

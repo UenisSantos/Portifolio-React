@@ -107,7 +107,11 @@ a,svg{
 	font-size:${theme.sizes.smaller};
 
 };
+img{
+	left: 1rem;
+	height:${theme.sizes.medium};
 
+}
 
 }
 
