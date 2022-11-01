@@ -75,9 +75,8 @@ export const Contact = () => {
 							enviar
 						</Buttom>
 
-{/*
-					<Input onclick={Send} id="submit_form" type="submit" value="enviar" />
- */}
+
+
 
 
 

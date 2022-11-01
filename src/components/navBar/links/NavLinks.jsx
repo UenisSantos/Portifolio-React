@@ -9,7 +9,6 @@ export const Links = (
 		newTab,
 		classe
 	}) => {
-	console.log(classe);
 
 	const target = newTab ? '_blank' : '_self'
 

@@ -25,7 +25,7 @@ export const Menu = () => {
 
 
 
-					{stateMenu ? <AiFillCloseCircle /> : <Image src={uenis}/>
+					{stateMenu ? <AiFillCloseCircle /> : <Image src={uenis}  alt='icone menu' />
 					}				</Buttom>
 
 

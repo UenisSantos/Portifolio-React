@@ -21,6 +21,6 @@ Buttom.propTypes = {
 
 	children: P.node.isRequired,
 	click: P.func,
-	pattern:P.string.isRequired,
+	pattern:P.string,
 	className: P.string
 }

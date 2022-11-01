@@ -21,70 +21,36 @@ img{
 
 
 
- svg{
-	position:relative ;
-    	color:${theme.colors.ligth};
-    height:${theme.sizes.smaller} ; ;
-    width:${theme.sizes.smaller} ;
-    animation-name:mymove ;
-    animation-duration:0.5s ;
-animation-iteration-count:infinite ;
-
-    }
-
-    @keyframes mymove {
-  from {top: 0px;}
-  to {bottom: 10px;
-color:${theme.colors.primaryColor} ;
-}
-}
-
-a{
-	width:100% ;
-
-}
-
-
-a  p{
-background-color:${theme.colors.secundaryColor} ;
-	color:${theme.colors.primaryColor};
-	margin:${theme.sizes.big} auto;
-
-padding:${theme.sizes.smaller};
-}
 
 
 
 
-
-
-
-${theme.breakpoints.xl}{
+${theme.breakpoints.xl} {
 
 	img{
-		width:40% ;
+		width: 40 % ;
 	}
 }
 
-${theme.breakpoints.max}{
+${theme.breakpoints.max} {
 
 	img{
-		width:30% ;
+		width: 30 % ;
 	}
 }
 
 
 
 
-${theme.breakpoints.lg}{
+${theme.breakpoints.lg} {
 
 h1{
 
-font-size:${theme.sizes.medium}
+		font - size:${theme.sizes.medium}
 
-}
+	}
 
-`}
+	`}
 `;
 
 
@@ -184,3 +150,5 @@ font-size:${theme.sizes.smaller}  ;
 
 `}
 `;
+
+

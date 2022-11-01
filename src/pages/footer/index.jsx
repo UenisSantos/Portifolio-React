@@ -8,7 +8,7 @@ export const Footer = () => {
 			<Styled.Footer  >
 				{footer.map((iten, i) => (
 					<li key={i} >
-						<a href={iten.href} className={iten.classe} newTab={iten.newTab}  >
+						<a href={iten.href} className={iten.classe}   >
 
 							{iten.children}
 						</a>

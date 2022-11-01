@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React ,{useState} from 'react'
 import *  as Styled from './styles'
 import { Image } from '../../components/Image/index';
 import projects from '../../assets/projects.svg'
@@ -8,9 +9,24 @@ import { projecMock } from '../../common/data/projects';
 import { Buttom } from '../../components/Buttom/button';
 import { Links } from '../../components/navBar/links/NavLinks';
 import { BsChevronDoubleDown } from 'react-icons/bs';
+import { Pagination } from '../pagination';
 
 
 export const Projects = () => {
+
+const [itensPerPage, setItensPerPage]=useState(6)
+
+const [currentPage,setCurrentPage] = useState(0)
+
+const pages= Math.ceil(projecMock.length / itensPerPage)
+
+const startIndex= currentPage*itensPerPage;
+const endIndex = startIndex + itensPerPage
+
+
+const currentItens = projecMock.slice(startIndex,endIndex)
+
+
 	return (
 		<Styled.ProjectsContainer>
 
@@ -22,12 +38,10 @@ export const Projects = () => {
 
 
 			<Styled.Container>
-				{projecMock.map((iten, i) => (
-					<>
+				{currentItens.map((iten, i) => (
 
-
-						<Styled.ModalContainer>
-							<Text as='h2' size='small'> {iten.title}</Text>
+						<Styled.ModalContainer key={i} >
+							<Text   as='h2' size='small'> {iten.title}</Text>
 							<Text>{iten.subTitle}</Text>
 
 							<Modal size='medium'>
@@ -38,17 +52,18 @@ export const Projects = () => {
 						</Styled.ModalContainer>
 
 
-					</>
 				))}
 
 
 			</Styled.Container>
 
-			<Links href={'te'}>
-					<Text size='smaller'>
-						ver mais certificados <BsChevronDoubleDown />
-					</Text>
-				</Links>
+
+
+
+<Pagination  setCurrentPage={setCurrentPage}  pages={pages} />
+
+
+
 		</Styled.ProjectsContainer>
 
 
