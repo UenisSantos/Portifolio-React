@@ -6,13 +6,22 @@ import { Image } from '../../components/Image/index';
 import { Text } from '../../components/Text/index';
 import { certificates } from '../../common/data/certificates'
 import { Modal } from '../../components/modal/index';
-import { Links } from '../../components/navBar/links/NavLinks';
-import { BsChevronDoubleDown } from 'react-icons/bs'
+
 import { RiCloseLine } from 'react-icons/ri'
 import { Buttom } from '../../components/Buttom/button';
+import { Pagination } from '../pagination';
 
 export const Education = () => {
 
+	const [itensPerPage, setItensPerPage]=useState(6)
+
+	const [currentPage,setCurrentPage] = useState(0)
+
+	const pages= Math.ceil(certificates.length / itensPerPage)
+
+	const startIndex= currentPage*itensPerPage;
+	const endIndex = startIndex + itensPerPage
+	const currentItens = certificates.slice(startIndex,endIndex)
 
 
 	const [visibleModal, setVisibleModal] = useState(false)
@@ -25,7 +34,7 @@ export const Education = () => {
 	}
 
 	return (
-		<>
+		<div>
 			<Styled.EducationContainer>
 
 				<Styled.Title>
@@ -40,11 +49,10 @@ export const Education = () => {
 
 			</Styled.EducationContainer>
 
-
 			<Styled.Certificates>
 
 
-				{certificates.map((iten, i) => (
+				{currentItens.map((iten, i) => (
 					<Modal key={i} size={'small'}  >
 
 						<Text as='h3' size='smaller'>
@@ -67,11 +75,7 @@ export const Education = () => {
 
 
 
-				<Links href={'te'}>
-					<Text size='smaller'>
-						ver mais certificados <BsChevronDoubleDown />
-					</Text>
-				</Links>
+
 
 			</Styled.Certificates>
 
@@ -94,6 +98,13 @@ export const Education = () => {
 
 
 			</Styled.ModalBig>
-		</>
+
+
+
+
+			<Pagination pages={pages} setCurrentPage={setCurrentPage} />
+
+
+		</div>
 	)
 };

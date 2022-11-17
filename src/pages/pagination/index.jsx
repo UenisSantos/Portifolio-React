@@ -5,9 +5,8 @@ import *  as Styled from './styles'
 
 export const Pagination = ({setCurrentPage,pages}) => {
 const [ classe,setClasse ]=useState(1);
-const SelectClasse  =(i)=> setClasse(i+1);
 
-console.log(classe);
+const SelectClasse  =(i)=> setClasse(i+1);
 
 return (
 

@@ -116,38 +116,6 @@ bottom:-2rem ;
 
 
 
-    svg{
-	position:relative ;
-    	color:${theme.colors.ligth};
-    height:${theme.sizes.smaller} ; ;
-    width:${theme.sizes.smaller} ;
-    animation-name:mymove ;
-    animation-duration:0.5s ;
-animation-iteration-count:infinite ;
-
-    }
-
-    @keyframes mymove {
-  from {top: 0px;}
-  to {bottom: 10px;
-color:${theme.colors.primaryColor} ;
-}
-}
-
-a{
-	width:200% ;
-	height:50% ;
-}
-
-
-a  p{
-background-color:${theme.colors.secundaryColor} ;
-	color:${theme.colors.primaryColor};
-	margin:${theme.sizes.big} auto;
-
-}
-
-
 ${theme.breakpoints.sm}{
 	.modal{ height:40% }
 
@@ -184,9 +152,7 @@ ${theme.breakpoints.max}{
 .modal{
 	height:80% ;
 }
-a{
-	margin-left :18vw;
-}
+
 }
 
 ${theme.breakpoints.xmax}{
@@ -208,33 +174,7 @@ button{
 
 }
 
-a {
-	width:200% ;
-	margin-left:0px;
-}
-a>p{
-	height:10rem ;
-	margin-top:20% ;
-	padding-top:2% ;
-	font-size:${theme.sizes.small} ;
 
-}
-animation-duration:0.9s ;
-
-svg{
-    height:${theme.sizes.medium} ; ;
-    width:${theme.sizes.medium} ;
-
-    }
-@keyframes mymove {
-  from {top: 10px;
-	color:${theme.colors.ligth} ;
-
-  }
-  to {bottom: 30px;
-color:${theme.colors.primaryColor} ;
-}
-}
 
 }
 `}

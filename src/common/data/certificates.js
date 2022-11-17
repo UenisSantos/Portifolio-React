@@ -69,6 +69,55 @@ export const certificates = [
 		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/CB7CFA05.jpg'
 	},
 
+	///////////////////////////////////////////////////////////
+
+	{
+		title: 'Desenvolvimento web com  ReactJs',
+		subTitle: ' introdução ao React hooks do basico ao avançado  ',
+		document: 'ver certificado',
+		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/EB88B60D.jpg'
+	},
+
+
+	{
+		title: 'Git e Github com gist e gist Pages',
+		subTitle: 'Git e GitHub avançado, uma abordagem prática para o controle de versão e manutenção de repositórios',
+		document: 'ver certificado',
+		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/git.jpg'
+
+	},
+
+	{
+		title: 'Impuso javascript evolution',
+		subTitle: 'javascript avançado,entendendo escopo ,closures, callback... ',
+		document: 'ver certificado',
+		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/CF986BA9.jpg'
+
+
+	},
+
+	{
+		title: 'Desenvolvimento web',
+		subTitle: 'Crie aplicações WEB incríveis utilizando JavaScript, TypeScript e Angular',
+		document: 'ver certificado',
+		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/desenvolvimento-web.jpg'
+	},
+
+
+
+
+	{
+		title: 'ReactJS',
+		subTitle: 'Dsenvolvendo projetos web com ReactJs usando Styled-Components',
+		document: 'ver certificado',
+		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/CB7CFA05.jpg'
+	},
+	{
+		title: 'Desenvolvimento web',
+		subTitle: 'Primeiros passos para desenvolvimento web',
+		document: 'ver certificado',
+		src: 'https://raw.githubusercontent.com/UenisSantos/images/79372544f357822d0eb4468c447049de4fc669b1/CB7CFA05.jpg'
+	},
 
 
 ]

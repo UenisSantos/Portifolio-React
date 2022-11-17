@@ -8,7 +8,6 @@ import { Modal } from '../../components/modal/index';
 import { projecMock } from '../../common/data/projects';
 import { Buttom } from '../../components/Buttom/button';
 import { Links } from '../../components/navBar/links/NavLinks';
-import { BsChevronDoubleDown } from 'react-icons/bs';
 import { Pagination } from '../pagination';
 
 
