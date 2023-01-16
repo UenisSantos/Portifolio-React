@@ -15,7 +15,7 @@ ${theme.breakpoints.max}{
 	background-size:100% 80%;
 
 
-
+}
 
 `}`;
 
@@ -59,15 +59,18 @@ h1{
 	margin-left:20% ;
 }
 
+
+
 }
 
 
 
 ${theme.breakpoints.max}{
-	h1{ font-size:${theme.sizes.medium}}
+	h1{ font-size:${theme.sizes.medium};	;
+}
 	p {font-size:${theme.sizes.small};
-
-	margin:${theme.sizes.big} ;
+	width: 100% ;
+	height:10rem ;
 }
 
 
@@ -75,6 +78,8 @@ ${theme.breakpoints.xmax}{
 	h1{ font-size:${theme.sizes.huge}
 
 }
+
+}}
 `}`;
 
 
@@ -262,14 +267,6 @@ height:5rem ;
  }
 
 }
-
-
-
-
-
-
-
-
 
 `}
 `;

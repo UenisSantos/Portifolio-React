@@ -5,15 +5,15 @@ export const linksMenu = [
 		href: '/sobre',
 		newTab: false
 	},
-	{
-		children: 'Educacao',
-		href: '/educacao',
-		newTab: false
-	},
+
 
 	{
 		children: 'Projetos',
 		href: '/projetos',
+		newTab: false
+	},	{
+		children: 'Educacao',
+		href: '/educacao',
 		newTab: false
 	},
 	{

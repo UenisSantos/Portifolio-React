@@ -3,7 +3,7 @@ export const theme = {
 
 	colors: {
 		primaryColor: '#00BEA5',
-		secundaryColor: '#3F3D56',/* #01BBAE  '#01AC96'*/
+		secundaryColor: '#3F3D56',
 		ligth: '#C0C0C0'
 	},
 	sizes: {

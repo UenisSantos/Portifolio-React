@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const AboutContainer = styled.section`
 ${({ theme }) => css`
-margin-top:${theme.sizes.big} ;
+margin-top:${theme.sizes.huge} ;
 display:flex ;
 flex-direction:column ;
 text-align:center ;
@@ -72,7 +72,7 @@ h1{
 }
 
 
-}
+
 `}
 `;
 

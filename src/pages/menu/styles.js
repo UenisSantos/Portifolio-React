@@ -22,6 +22,12 @@ justify-content:center ;
 img{
 	position:absolute ;
 	height:${theme.sizes.huge};
+
+	:hover{
+
+width: 21% ;
+
+	}
 }
 
 
@@ -60,6 +66,13 @@ justify-content:center ;
 a, svg{
 	font-size:${theme.sizes.smaller};
 	color:${theme.colors.secundaryColor};
+
+
+	:hover{
+		text-decoration: underline;
+		color: white ;
+
+	}
 
 }
 li{

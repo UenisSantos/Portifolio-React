@@ -30,7 +30,4 @@ margin:${theme.sizes.smaller} ;
 }
 
 `}
-
-
-
 `
