@@ -13,6 +13,7 @@ import { Pagination } from '../pagination';
 
 export const Education = () => {
 
+	// eslint-disable-next-line no-unused-vars
 	const [itensPerPage, setItensPerPage]=useState(6)
 
 	const [currentPage,setCurrentPage] = useState(0)

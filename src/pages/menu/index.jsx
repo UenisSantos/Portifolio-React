@@ -10,6 +10,7 @@ import { Image } from '../../components/Image/index';
 import { Buttom } from '../../components/Buttom/button';
 import { MenuLinks } from '../../components/navBar/menu';
 import uenis from '../../assets/uenis.svg'
+import { Links } from '../../components/navBar/links/NavLinks';
 export const Menu = () => {
 
 	const [stateMenu, setStateMenu] = useState(false)
@@ -20,7 +21,9 @@ export const Menu = () => {
 
 
 			<Styled.MenuContainer    stateMenu={stateMenu} >
-	<Image src={rubrica} alt='rubrica' />
+	
+	<Links  href='/main'>  	< Image src={rubrica} alt='rubrica' />
+</Links>
 				<Buttom className={'menuButton'} click={() => HandleClickMenu()} >
 
 

@@ -8,7 +8,6 @@ export const LayoutContainer = styled.section`
 ${({ theme, }) => css`
 
 
-
 `}
 `;
 
